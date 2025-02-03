@@ -60,3 +60,6 @@ Empty
 # In Development Function
 `interpretation of GPT` <br />
 `MBR to GPT without data loss`
+
+# Keywords
+MBR; MBR dump; Windows MBR dump; MBR structure; Python MBR Reader; Partition Scheme Dump
