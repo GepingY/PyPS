@@ -1,5 +1,5 @@
 # PyPartitionSchemes
-This program is under development to read most partitioning schemes, such as MBR, GPT, etc. <br />
+This program is developed to read most partitioning schemes, such as MBR, GPT, etc. Further function such as MBR to GPT is under development<br />
 ## Current available function: 
 `interpret MBR (Master Boot Record) and it's deviate data such as partition table and type etc......`
 `interpret GPT (GUID Partition Table and it's deviate data such as partition table and type etc......)`
