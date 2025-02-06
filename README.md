@@ -1,9 +1,12 @@
 # PyPartitionSchemes
 This program is under development to read most partitioning schemes, such as MBR, GPT, etc. <br />
 ## Current available function: 
-`interpret MBR (Master Boot Record)`
+`interpret MBR (Master Boot Record) and it's deviate data such as partition table and type etc......`
+`interpret GPT (GUID Partition Table and it's deviate data such as partition table and type etc......)`
 ## How to use
 This program is purely written in `Python 3`, no external libraries are required. <br />
+Build in Library `struct` is used to convert edian, don't worry about it<br />
+
 It has been tested on `Windows 11` and `Ubuntu 24.04 Noble`, and it is supposed to work on `macOS` as well, although it has never been tested on `macOS`. <br />
 To use, simply run it with `Python`, e.g. <br />
 On `Windows` command line, run `python Main.py` <br />
@@ -58,7 +61,6 @@ Empty
 ```
 
 # In Development Function
-`interpretation of GPT` <br />
 `MBR to GPT without data loss`
 
 # Keywords
