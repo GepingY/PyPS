@@ -13,8 +13,10 @@ On `Windows` command line, run `python Main.py` <br />
 On `Linux` terminal, run `python3 Main.py` <br />
 <br />
 You will then be asked to input the path to the disk. For Windows, the path should be something like `\\.\PHYSICALDRIVE1`. To find the list of disk paths on Windows, run `wmic diskdrive list brief`; for Linux, the path should look like `/dev/sdX`, where X is a letter from a to b, such as `/dev/sda`. Find the list of disk paths on Linux by using `lsblk`. **DO NOT** use the path to a partition instead of the path to disk on linux, there shouldn't be a number behind the path, e.g. you should use something like `/dev/sda` instead of `/dev/sda1` <br />
-<br />
-After you enter the path, the interpreted data will br printed out in the command line <br />
+
+Then Enter 1 to parse GPT, or enter 2 to parse MBR <br />
+
+After that, the interpreted data will br printed out in the command line <br />
 <br />
 Note: CHS data is given in hex, sector numbers are given in decimal
 
